@@ -81,16 +81,20 @@ To do so, run the mingw-get-setup.exe package, make it install MinGW in the targ
 
 You must install the following packages:
 * mingw32-base
-* mingw32-gcc (bin)
-* mingw32-gcc-g++ (bin)
 * msys-base
 * msys-mintty (bin) (an alternative bash-like shell, allowing resizing and lots of user-friendliness)
+
+After configuration, check that the following mandatory packages are available:
+* mingw32-gcc (bin)
+* mingw32-gcc-g++ (bin)
 
 You should install the following packages:
 * mingw32-binutils (bin)
 * mingw32-gdb (bin)
 
 Don't worry if you forget anything, you can run the installer later (even from the target installation "bin/mingw-get-setup.exe") to install/update/remove packages later.
+
+"Make" should be installed in the MSYS distribution by default (msys\1.0\bin\make.exe)
 
 ### In the "Windows/32/minded" folder
 
