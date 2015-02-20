@@ -52,28 +52,28 @@ http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/
 
 You need to make files available in certain places, according to the Workshop.iss file, for them to be packaged and ran correctly by the constructed installer.
 
-- In the "Windows" folder
+### In the "Windows" folder
 
 Copy:
 * graphviz-2.28.0.msi
 * pygtk-all-in-one-2.24.0.win32-py2.7.msi
 * python-2.7.2.msi
 
-- In the "Windows/32" folder
+### In the "Windows/32" folder
 
 Copy:
 * jdk-8u31-windows-i586.exe
 
-- In the "Windows/64" folder
+### In the "Windows/64" folder
 
 Copy:
 * jdk-8u31-windows-x64.exe
 
-- In the "Windows/mind" folder
+### In the "Windows/mind" folder
 
 Unzip the pre-built Mind release directly in the folder, so that the "bin", "bundle", "doc", "examples", "ext", "lib", "manifest", "resources", "runtime", LICENSES.txt and README.txt are immediately available in the folder.
 
-- In the "Windows/MinGW" folder
+### In the "Windows/MinGW" folder
 
 You need to provide a pre-installed and configured MinGW there.
 An internet connection is mandatory in this step.
@@ -92,7 +92,7 @@ You should install the following packages:
 
 Don't worry if you forget anything, you can run the installer later (even from the target installation "bin/mingw-get-setup.exe") to install/update/remove packages later.
 
-- In the "Windows/32/minded" folder
+### In the "Windows/32/minded" folder
 
 Unzip eclipse-cpp-luna-SR1a-win32.zip "eclipse/" subfolder content in the Windows/32/minded folder, so as for "configuration" ... "eclipse.exe" ... "notice.html" to be directly available.
 
@@ -105,7 +105,7 @@ Install the MindEd plugin via Help -> Install New Software... , "Add..." the fol
 Check the "MindEd" plugin (not "Dependencies"), go through the Next steps, validate everything, restart.
 Then configure the Window -> Preferences -> Mindc Preferences, set the Mindc location to "C:\MINDWorkshop\mind" (this will be persisted as well).
 
-- In the "Windows/64/minded" folder
+### In the "Windows/64/minded" folder
 
 Unzip eclipse-cpp-luna-SR1a-win32-x86_64.zip "eclipse/" subfolder content in the Windows/64/minded folder, so as for "configuration" ... "eclipse.exe" ... "notice.html" to be directly available.
 
